@@ -1,30 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Ana María Herrera Sánchez">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ana María Herrera Sánchez" />
     <title>Carrera de michis</title>
-    <script src="/js/enlace.js"></script>
-    <link rel="stylesheet" type="text/css" href="/css/estilo.css">
-</head>
-<body>
+    <script src="../js/enlace.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css" />
+  </head>
+  <body>
     <div id="pista">
-        <p><img src="/images/gato1.png" class="gato" id="gato1" alt="gato corriendo" ></p>
-        <p><img src="/images/gato2.png" class="gato" id="gato2" alt="gato corriendo" ></p>
-     </div>
-     <hr>
-     <h1>Bienvenidos a la carrera de michis!!</h1>
-     <hr>
-     <div id="botones">
-        <div>
-            <input type="button" id="comenzar" value="COMENZAR">
-        </div>
-        <div>
-            <input type="button" id="empate" value="EMPATE">
-            <input type="button" id="correr" value="A CORRER!!">
-            <input type="button" id="stop" value="STOP">
-        </div>
-     </div>
-</body>
+      <p>
+        <img
+          src="../images/gato1.png"
+          class="gato"
+          id="gato1"
+          alt="gato corriendo"
+        />
+      </p>
+      <p>
+        <img
+          src="../images/gato2.png"
+          class="gato"
+          id="gato2"
+          alt="gato corriendo"
+        />
+      </p>
+    </div>
+    <hr />
+    <h1>Bienvenidos a la carrera de michis!!</h1>
+    <hr />
+    <div id="botones">
+      <div>
+        <input type="button" id="comenzar" value="COMENZAR" />
+      </div>
+      <div>
+        <input type="button" id="empate" value="EMPATE" />
+        <input type="button" id="correr" value="A CORRER!!" />
+        <input type="button" id="stop" value="STOP" />
+      </div>
+    </div>
+  </body>
 </html>
+
+<!--   Ana, cuidado con las imagenes:  src="../images/gato1.png" 
+    Si le pones /images/gato1.png busca el directorio images dentro de index. 
+    Hay que poner .. para que salga un directorio hacia arriba.
+    Lo mismo con el js y con las hojas de estilos
+-->
